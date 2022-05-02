@@ -4,25 +4,25 @@
 
 body {
     padding: 30px;
-    margin: 10px;
+    margin: 5px;
     background-color: black;
     color: #fff
 }
 
 h1 {
     
-    font-size: 80px;
+    font-size: 60px;
     text-shadow: -1px 0 #fff, 0 1px #fff, 2px 0 #fff, 0 -1px #fff;
     text-align: center;
     color:darkseagreen;
-    padding: 30px;
+    padding: 10px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color:darkseagreen;
-    padding: 30px;
+    padding: 10px;
 }
 
 .grad {
@@ -45,4 +45,13 @@ h2{
 
   .container{
       margin-left: 500px;
+  }
+
+  img {
+    display:block;
+    margin:auto;
+    width: 250px;
+    border: 5px solid #fff;
+    object-fit: cover;
+    border-radius: 50%;
   }
